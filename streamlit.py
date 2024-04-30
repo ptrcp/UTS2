@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('modelUTS.pkl')
+model = joblib.load('UTS-oop.pkl')
 
 def main():
     st.title('Prediction Model of Churn and Not Churn')
